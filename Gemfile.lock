@@ -33,6 +33,6 @@ PLATFORMS
 DEPENDENCIES
   haml
   pg
-  rails (~> 2.3.12)
+  rails (= 2.3.14)
   rdoc
   sqlite3

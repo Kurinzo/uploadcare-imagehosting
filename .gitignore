@@ -4,3 +4,6 @@ tmp/
 log/
 .DS_Store
 Gemfile.lock
+*~
+.rvmrc
+public/javascripts/jquery*.js
