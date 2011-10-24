@@ -3,3 +3,4 @@ doc/
 tmp/
 log/
 .DS_Store
+Gemfile.lock
