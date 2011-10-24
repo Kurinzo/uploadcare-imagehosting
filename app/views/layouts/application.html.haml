@@ -1,0 +1,16 @@
+%html
+  %head
+    %title Super cool title
+    = javascript_include_tag :defaults
+    = javascript_include_tag 'http://static.uploadcare.com/assets/uploaders/line-widget.en.js'
+    = stylesheet_link_tag 'general'
+  %body
+    #wrapper
+      #body-container
+        #logo-container
+          = image_tag 'logo.png'
+        #widget-container
+          %form
+            = hidden_field_tag 'widget', nil, {:role => "uploadcare-line-uploader"}
+          
+      

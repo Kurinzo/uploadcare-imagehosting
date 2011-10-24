@@ -1,0 +1,32 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: url(/images/bg.png) repeat 0 0;
+}
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+#wrapper #body-container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#wrapper #body-container #logo-container {
+	width: 293px;
+	margin: 0 auto;
+	position: relative;
+	top: 200px;
+}
+
+#wrapper #body-container #widget-container {
+	width: 293px;
+	margin: 0 auto;
+	position: relative;
+	top: 200px;
+}
